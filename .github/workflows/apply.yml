@@ -25,5 +25,5 @@ jobs:
 
       - name: Run script
         run: |
-          sed -i "s|TO_BE_FILLED|$RUN_URL|g" submit.py
+          sed -i "s|TO_BE_FILLED|$RUN_URL|g" main.py
           python main.py
